@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-29T15:38:01 MESZ" name="Default suite" finished-at="2025-09-29T15:38:01 MESZ" duration-ms="29">
+    <groups>
+    </groups>
+    <test started-at="2025-09-29T15:38:01 MESZ" name="Default test" finished-at="2025-09-29T15:38:01 MESZ" duration-ms="29">
+      <class name="generics.UnitTestPair">
+        <test-method signature="testGetters()[pri:0, instance:generics.UnitTestPair@44821a96]" started-at="2025-09-29T15:38:01 MESZ" name="testGetters" finished-at="2025-09-29T15:38:01 MESZ" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetters -->
+      </class> <!-- generics.UnitTestPair -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
