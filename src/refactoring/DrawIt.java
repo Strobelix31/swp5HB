@@ -2,9 +2,6 @@ package refactoring;
 
 /**
  * Demo entry point for the geometry collection.
- * <p>
- * Refactored to demonstrate the new ID uniqueness rule enforced by {@link GeometryCollection}.
- * </p>
  */
 public class DrawIt {
 

@@ -11,7 +11,7 @@ public class Rectangle extends Geometry {
     /**
      * Creates a rectangle.
      *
-     * @param id     unique ID (checked by {@link GeometryCollection})
+     * @param id     unique ID 
      * @param width  must be >= 0
      * @param height must be >= 0
      * @param filled filled flag

@@ -4,14 +4,6 @@ import java.util.*;
 
 /**
  * Collection for {@link Geometry} objects with ID-based access.
- * <p>
- * Refactored from a simple list to a map to:
- * <ul>
- *   <li>enforce unique IDs centrally</li>
- *   <li>speed up {@code getById} to O(1)</li>
- * </ul>
- * </p>
- *
  * @param <T> geometry subtype
  */
 public class GeometryCollection<T extends Geometry> {
@@ -68,7 +60,7 @@ public class GeometryCollection<T extends Geometry> {
         return element;
     }
 
-    /** @return an unmodifiable view of all elements (in insertion order) */
+    /** @return an unmodifiable view of all elements */
     public Collection<T> values() {
         return Collections.unmodifiableCollection(byId.values());
     }

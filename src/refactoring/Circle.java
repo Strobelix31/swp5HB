@@ -10,7 +10,7 @@ public class Circle extends Geometry {
     /**
      * Creates a circle.
      *
-     * @param id     unique ID (checked by {@link GeometryCollection})
+     * @param id     unique ID 
      * @param radius radius, must be >= 0
      * @param filled filled flag
      * @param color  color name
@@ -27,10 +27,6 @@ public class Circle extends Geometry {
 
     /**
      * Sets the radius.
-     * <p>
-     * Validation is done here to keep the object always in a valid state.
-     * </p>
-     *
      * @param radius must be >= 0
      * @throws IllegalArgumentException if radius is negative
      */
