@@ -13,9 +13,9 @@ public abstract class Geometry implements Comparable<Geometry> {
     /**
      * Creates a geometry with identity and styling information.
      *
-     * @param id     unique identifier
+     * @param id unique identifier
      * @param filled whether the geometry is filled
-     * @param color  color name, must not be null/blank
+     * @param color color name, must not be null/blank
      * @throws IllegalArgumentException if color is null/blank or id is negative
      */
     protected Geometry(int id, boolean filled, String color) {

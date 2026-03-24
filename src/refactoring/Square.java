@@ -11,10 +11,10 @@ public class Square extends Rectangle {
     /**
      * Creates a square.
      *
-     * @param id     unique ID
-     * @param side   must be >= 0
+     * @param id unique ID
+     * @param side must be >= 0
      * @param filled filled flag
-     * @param color  color name
+     * @param color color name
      */
     public Square(int id, double side, boolean filled, String color) {
         super(id, side, side, filled, color);
